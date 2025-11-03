@@ -1,0 +1,10 @@
+[01m[K/home/gfave/maze_ws/src/mazesim/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::leftCallback(example_interfaces::msg::Empty_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/gfave/maze_ws/src/mazesim/src/robot_controller.cpp:88:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   88 | oid leftCallback([01;35m[Kconst example_interfaces::msg::Empty::SharedPtr msg[m[K) {
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/gfave/maze_ws/src/mazesim/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::rightCallback(example_interfaces::msg::Empty_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/gfave/maze_ws/src/mazesim/src/robot_controller.cpp:95:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 | id rightCallback([01;35m[Kconst example_interfaces::msg::Empty::SharedPtr msg[m[K) {
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

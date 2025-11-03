@@ -1,0 +1,51 @@
+[0.018s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[0.127s] [100%] Built target robot_controller
+[0.127s] [100%] Built target test_room_config
+[0.142s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[0.191s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim
+[0.202s] -- Install configuration: ""
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/lib/mazesim/robot_controller
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/gazebo.launch.py
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.pgm
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.png
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.yaml
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//worlds
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//worlds/maze_world.world
+[0.203s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/model.sdf
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/materials
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/materials/scripts
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/materials/scripts/map_floor.material
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/materials/textures
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/materials/textures/my_map_1.png
+[0.204s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/map_floor/model.config
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_walls
+[0.205s] -- Installing: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_walls/model.sdf
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_walls/.qodo
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_walls/.qodo/workflows
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_walls/.qodo/agents
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_walls/model.config
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//rviz
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//config
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/room_positions.yaml
+[0.205s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/lib/mazesim/generate_walls.py
+[0.206s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/lib/mazesim/test_room_config
+[0.206s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/package_run_dependencies/mazesim
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/parent_prefix_path/mazesim
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.sh
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.dsv
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.sh
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.dsv
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.bash
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.sh
+[0.207s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.zsh
+[0.208s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.dsv
+[0.208s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.dsv
+[0.208s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/packages/mazesim
+[0.208s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig.cmake
+[0.208s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig-version.cmake
+[0.208s] -- Up-to-date: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.xml
+[0.211s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim

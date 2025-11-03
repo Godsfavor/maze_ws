@@ -1,0 +1,8 @@
+source;share/mazesim/hook/cmake_prefix_path.ps1
+source;share/mazesim/hook/cmake_prefix_path.dsv
+source;share/mazesim/hook/cmake_prefix_path.sh
+source;share/mazesim/local_setup.bash
+source;share/mazesim/local_setup.dsv
+source;share/mazesim/local_setup.ps1
+source;share/mazesim/local_setup.sh
+source;share/mazesim/local_setup.zsh
