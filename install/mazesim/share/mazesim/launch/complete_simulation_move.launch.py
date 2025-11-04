@@ -1,7 +1,7 @@
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, TimerAction, ExecuteProcess, DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription, TimerAction, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 
@@ -16,15 +16,24 @@ def generate_launch_description():
     # Set model paths (for Classic Gazebo)
     os.environ['GAZEBO_MODEL_PATH'] = f"{os.path.join(mazesim_dir, 'models')}:{os.path.join(turtlebot3_gazebo_dir, 'models')}"
     
+    # Robot configurations - spawn DIRECTLY at final positions
+    # robots = [
+    #     {'name': 'robot1', 'x': 4.06, 'y': 14.85, 'z': 0.01, 'yaw': 1.57, 'room': 'room_1'},
+    #     {'name': 'robot2', 'x': 15.56, 'y': 14.85, 'z': 0.01, 'yaw': 3.14, 'room': 'room_2'},
+    #     {'name': 'robot3', 'x': 4.06, 'y': 3.85, 'z': 0.01, 'yaw': 0.0, 'room': 'room_3'},
+    #     {'name': 'robot4', 'x': 15.56, 'y': 6.35, 'z': 0.01, 'yaw': -1.57, 'room': 'room_4'},
+    # ]
+
+    # In complete_simulation_move.launch.py
+    # These are rough estimates - you'll need to fine-tune
     robots = [
-        {'name': 'robot1', 'x': 4.06, 'y': 14.85, 'z': 0.0, 'yaw': 1.57, 'room': 'room_1'},
-        {'name': 'robot2', 'x': 15.56, 'y': 14.85, 'z': 0.0, 'yaw': 3.14, 'room': 'room_2'},
-        # {'name': 'robot3', 'x': 4.06, 'y': 3.85, 'z': 0.0, 'yaw': 0.0, 'room': 'room_3'},
-        # {'name': 'robot4', 'x': 15.56, 'y': 6.35, 'z': 0.0, 'yaw': -1.57, 'room': 'room_4'},
-    
+        {'name': 'robot1', 'x': 0.0, 'y': 0.0, 'z': 0.0, 'yaw': 3.14, 'room': 'room_1'},   # Upper-left
+        {'name': 'robot2', 'x': -1.2, 'y': 0.0, 'z': 0.0, 'yaw': -1.57, 'room': 'room_2'},   # Upper-right
+        {'name': 'robot3', 'x': -0.2, 'y': 0.8, 'z': 0.0, 'yaw': 1.57, 'room': 'room_3'},    # Lower-left
+        {'name': 'robot4', 'x': -1.2, 'y': 1.0, 'z': 0.0, 'yaw': -1.57, 'room': 'room_4'},  # Lower-right
     ]
     
-    # Gazebo launch (unchanged, assuming gazebo_ros is for Classic)
+    # Gazebo launch
     gzserver = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(gazebo_ros_dir, 'launch', 'gzserver.launch.py')),
         launch_arguments={'world': world_file}.items()
@@ -40,11 +49,7 @@ def generate_launch_description():
     ]
     
     for i, robot in enumerate(robots):
-        # Temporary spawn positions to avoid initial collisions
-        temp_x = i * 2.0
-        temp_y = i * 2.0
-        
-        # Spawn using spawn_entity.py (compatible with Classic)
+        # Spawn DIRECTLY at final position (NO temporary position!)
         spawn = Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
@@ -53,31 +58,15 @@ def generate_launch_description():
                 '-entity', robot['name'],
                 '-file', model_file,
                 '-robot_namespace', robot['name'],
-                '-x', str(temp_x),
-                '-y', str(temp_y),
+                '-x', str(robot['x']),      # Use actual position
+                '-y', str(robot['y']),      # Use actual position
                 '-z', str(robot['z']),
-                '-R', '0.0',
-                '-P', '0.0',
-                '-Y', str(robot['yaw'])
+                '-Y', str(robot['yaw'])     # Use actual yaw
             ],
             output='screen'
         )
         
-        # Move to final position using /gazebo/set_model_state service
-        move_cmd = [
-            'ros2', 'service', 'call',
-            '/gazebo/set_model_state',
-            'gazebo_msgs/srv/SetModelState',
-            '{model_state: {model_name: "' + robot['name'] + '", '
-            'pose: {position: {x: ' + str(robot['x']) + ', y: ' + str(robot['y']) + ', z: ' + str(robot['z']) + '}, '
-            'orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}}}'
-        ]
-        move = ExecuteProcess(
-            cmd=move_cmd,
-            output='screen'
-        )
-        
-        # Controller node (unchanged)
+        # Controller node
         controller = Node(
             package='mazesim',
             executable='robot_controller',
@@ -91,12 +80,12 @@ def generate_launch_description():
             }]
         )
         
-        # Timing to ensure sequential execution (spawn -> move -> controller)
-        base_delay = 3.0 + (i * 3.0)
+        # Timing: spawn -> wait -> controller
+        # Increased delays to avoid collision during spawn
+        base_delay = 3.0 + (i * 2.5)
         launch_list.extend([
             TimerAction(period=base_delay, actions=[spawn]),
-            TimerAction(period=base_delay + 1.0, actions=[move]),
-            TimerAction(period=base_delay + 2.0, actions=[controller])
+            TimerAction(period=base_delay + 1.5, actions=[controller])
         ])
     
     return LaunchDescription(launch_list)
