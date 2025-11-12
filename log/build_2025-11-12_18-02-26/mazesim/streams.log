@@ -1,0 +1,71 @@
+[0.098s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[0.517s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.o[0m
+[7.229s] [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:[m[K In member function ‘[01m[Kvoid Nav2CommandTranslator::feedbackCallback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[7.229s] [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:142:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.229s]   142 |         [01;35m[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback[m[K)
+[7.229s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[14.283s] [ 25%] [32m[1mLinking CXX executable nav2_command_translator[0m
+[14.902s] [ 25%] Built target nav2_command_translator
+[14.922s] [ 37%] [32mBuilding CXX object CMakeFiles/verify_positions.dir/src/verify_positions.cpp.o[0m
+[15.579s] [ 50%] [32m[1mLinking CXX executable verify_positions[0m
+[15.678s] [ 50%] Built target verify_positions
+[15.703s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.o[0m
+[26.067s] [ 75%] [32m[1mLinking CXX executable nav2_command_bridge[0m
+[26.685s] [ 75%] Built target nav2_command_bridge
+[26.713s] [ 87%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[42.091s] [100%] [32m[1mLinking CXX executable robot_controller[0m
+[42.927s] [100%] Built target robot_controller
+[42.938s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[42.973s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim
+[42.981s] -- Install configuration: ""
+[42.982s] -- Execute custom install script
+[42.983s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/nav2_command_translator
+[42.983s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/robot_controller
+[42.983s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/odom_tf_broadcaster.py
+[42.984s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/odom_frame_fixer.py
+[42.984s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/laser_frame_remapper.py
+[42.984s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/map_loader.py
+[42.984s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/nav2_command_bridge
+[42.985s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation.launch.py
+[42.985s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_direct.launch.py
+[42.986s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_fixed.launch.py
+[42.986s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_move.launch.py
+[42.986s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_nav2.launch.py
+[42.986s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_with_odom_fix.launch.py
+[42.987s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/gazebo.launch.py
+[42.987s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/localization_launch.py
+[42.987s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/nav2_navigation.launch.py
+[42.988s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/spawn_robots.launch.py
+[42.988s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/working_sim.launch.py
+[42.989s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.pgm
+[42.989s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.png
+[42.989s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.yaml
+[42.989s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//worlds/maze_world.world
+[42.990s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_map/model.config
+[42.990s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_map/model.sdf
+[42.991s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/turtlebot3_burger/model-1_4.sdf
+[42.991s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/turtlebot3_burger/model.config
+[42.991s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/turtlebot3_burger/model.sdf
+[42.992s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params.yaml
+[42.992s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params_robot1.yaml
+[42.993s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params_robot3.yaml
+[42.993s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/room_positions.yaml
+[42.993s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//urdf/turtlebot3_burger_fixed.urdf
+[42.993s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/generate_walls.py
+[42.994s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/verify_positions
+[42.994s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/package_run_dependencies/mazesim
+[42.994s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/parent_prefix_path/mazesim
+[42.995s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.sh
+[42.995s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.dsv
+[42.995s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.sh
+[42.996s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.dsv
+[42.996s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.bash
+[42.996s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.sh
+[42.997s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.zsh
+[42.997s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.dsv
+[42.997s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.dsv
+[43.005s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/packages/mazesim
+[43.006s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig.cmake
+[43.006s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig-version.cmake
+[43.006s] -- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.xml
+[43.008s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim
