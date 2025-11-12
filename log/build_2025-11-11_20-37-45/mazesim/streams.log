@@ -1,0 +1,27 @@
+[0.114s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target nav2_command_translator[0m
+[0.604s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.o[0m
+[18.641s] [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:[m[K In member function ‘[01m[Kvoid Nav2CommandTranslator::feedbackCallback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[18.642s] [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:142:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.642s]   142 |         [01;35m[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback[m[K)
+[18.642s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[54.254s] [ 25%] [32m[1mLinking CXX executable nav2_command_translator[0m
+[56.655s] [ 25%] Built target nav2_command_translator
+[56.691s] [35m[1mConsolidate compiler generated dependencies of target verify_positions[0m
+[56.739s] [ 37%] [32mBuilding CXX object CMakeFiles/verify_positions.dir/src/verify_positions.cpp.o[0m
+[59.953s] [ 50%] [32m[1mLinking CXX executable verify_positions[0m
+[60.402s] [ 50%] Built target verify_positions
+[60.447s] [35m[1mConsolidate compiler generated dependencies of target nav2_command_bridge[0m
+[60.449s] [35m[1mConsolidate compiler generated dependencies of target robot_controller[0m
+[60.506s] [ 62%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[60.508s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.o[0m
+[96.315s] gmake[2]: *** wait: No child processes.  Stop.
+[96.315s] gmake[2]: *** wait: No child processes.  Stop.
+[96.316s] gmake[2]: *** Waiting for unfinished jobs....
+[96.316s] gmake[2]: *** Waiting for unfinished jobs....
+[96.316s] gmake[2]: *** wait: No child processes.  Stop.
+[96.316s] gmake[2]: *** wait: No child processes.  Stop.
+[96.317s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/robot_controller.dir/all] Error 2
+[96.317s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/nav2_command_bridge.dir/all] Error 2
+[96.317s] gmake: *** [Makefile:146: all] Interrupt
+[96.476s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8

@@ -1,8 +1,0 @@
-[01m[K/home/gfave/maze_ws/src/mazesim/src/test_room_config.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmazesim/room_config.hpp: No such file or directory
-    3 | #include [01;31m[K"mazesim/room_config.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/test_room_config.dir/build.make:76: CMakeFiles/test_room_config.dir/src/test_room_config.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_room_config.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

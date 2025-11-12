@@ -16,11 +16,19 @@ def generate_launch_description():
     # Set model paths
     os.environ['GAZEBO_MODEL_PATH'] = f"{os.path.join(mazesim_dir, 'models')}:{os.path.join(turtlebot3_gazebo_dir, 'models')}"
     
+    # robots = [
+    #     {'name': 'robot1', 'x': 3.81, 'y': 16.10, 'z': 0.2, 'yaw': 0.0, 'room': 'room_1'},
+    #     {'name': 'robot2', 'x': 16.31, 'y': 16.10, 'z': 0.2, 'yaw': 0.0, 'room': 'room_2'},
+    #     {'name': 'robot3', 'x': 3.81, 'y': 3.60, 'z': 0.2, 'yaw': 0.0, 'room': 'room_3'},
+    #     {'name': 'robot4', 'x': 16.31, 'y': 3.60, 'z': 0.2, 'yaw': 0.0, 'room': 'room_4'},
+    # ]
+
     robots = [
-        {'name': 'robot1', 'x': 3.81, 'y': 16.10, 'z': 0.2, 'yaw': 0.0, 'room': 'room_1'},
-        {'name': 'robot2', 'x': 16.31, 'y': 16.10, 'z': 0.2, 'yaw': 0.0, 'room': 'room_2'},
-        {'name': 'robot3', 'x': 3.81, 'y': 3.60, 'z': 0.2, 'yaw': 0.0, 'room': 'room_3'},
-        {'name': 'robot4', 'x': 16.31, 'y': 3.60, 'z': 0.2, 'yaw': 0.0, 'room': 'room_4'},
+        {'name': 'robot1', 'x': 0.0, 'y': 0.0, 'z': 0.01, 'yaw': 1.57, 'room': 'room_1'},   # Upper-left
+        {'name': 'robot2', 'x': -1.2, 'y': 0.0, 'z': 0.01, 'yaw': 3.14, 'room': 'room_2'},   # Upper-right
+        # {'name': 'robot3', 'x': -0.2, 'y': 0.8, 'z': 0.0, 'yaw': 1.57, 'room': 'room_3'},    
+        {'name': 'robot3', 'x': -1.2, 'y': 1.0, 'z': 0.01, 'yaw': 0.0, 'room': 'room_3'},  # Lower-right
+        {'name': 'robot4', 'x': -0.2, 'y': 0.8, 'z': 0.01, 'yaw': -1.57, 'room': 'room_4'},# Lower-left
     ]
     
     # Gazebo launch

@@ -1,0 +1,119 @@
+[0.022s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gfave/maze_ws/src/mazesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gfave/maze_ws/install/mazesim
+[0.353s] -- The C compiler identification is GNU 11.4.0
+[0.488s] -- The CXX compiler identification is GNU 11.4.0
+[0.503s] -- Detecting C compiler ABI info
+[0.598s] -- Detecting C compiler ABI info - done
+[0.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.610s] -- Detecting C compile features - done
+[0.615s] -- Detecting CXX compiler ABI info
+[0.729s] -- Detecting CXX compiler ABI info - done
+[0.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.744s] -- Detecting CXX compile features
+[0.745s] -- Detecting CXX compile features - done
+[0.762s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.013s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.154s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.229s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.238s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.251s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.381s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.386s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.510s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.545s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.612s] -- Looking for pthread.h
+[1.733s] -- Looking for pthread.h - found
+[1.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.806s] -- Found Threads: TRUE  
+[1.923s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.985s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.009s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.036s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.072s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.181s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.206s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.227s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.229s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.229s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.245s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.354s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.354s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gfave/maze_ws/src/mazesim/include>
+[2.354s] -- Configured cppcheck exclude dirs and/or files: 
+[2.355s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.356s] -- Added test 'lint_cmake' to check CMake code style
+[2.358s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.361s] -- Added test 'uncrustify' to check C / C++ code style
+[2.361s] -- Configured uncrustify additional arguments: 
+[2.362s] -- Added test 'xmllint' to check XML markup files
+[2.365s] -- Configuring done
+[2.402s] -- Generating done
+[2.404s] -- Build files have been written to: /home/gfave/maze_ws/build/mazesim
+[2.420s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gfave/maze_ws/src/mazesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gfave/maze_ws/install/mazesim
+[2.423s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[2.481s] [ 37%] [32mBuilding CXX object CMakeFiles/verify_positions.dir/src/verify_positions.cpp.o[0m
+[2.481s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.o[0m
+[2.481s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[2.482s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.o[0m
+[2.928s] In file included from [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:14[m[K:
+[2.928s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.928s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.928s]       |  [01;35m[K^~~~~~~[m[K
+[3.572s] [ 62%] [32m[1mLinking CXX executable verify_positions[0m
+[3.768s] [ 62%] Built target verify_positions
+[6.428s] [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:[m[K In member function ‘[01m[Kvoid Nav2CommandTranslator::feedbackCallback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[6.428s] [01m[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:142:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.428s]   142 |         [01;35m[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback[m[K)
+[6.428s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[16.208s] [ 75%] [32m[1mLinking CXX executable nav2_command_translator[0m
+[16.398s] [ 87%] [32m[1mLinking CXX executable nav2_command_bridge[0m
+[17.538s] [ 87%] Built target nav2_command_translator
+[17.583s] [ 87%] Built target nav2_command_bridge
+[19.292s] [100%] [32m[1mLinking CXX executable robot_controller[0m
+[20.136s] [100%] Built target robot_controller
+[20.148s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[20.184s] Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim
+[20.191s] -- Install configuration: ""
+[20.192s] -- Execute custom install script
+[20.192s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/lib/mazesim/nav2_command_translator
+[20.201s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/lib/mazesim/robot_controller
+[20.210s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/lib/mazesim/nav2_command_bridge
+[20.218s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation.launch.py
+[20.226s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_direct.launch.py
+[20.233s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_fixed.launch.py
+[20.242s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_move.launch.py
+[20.249s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_nav2.launch.py
+[20.257s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/gazebo.launch.py
+[20.265s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/nav2_navigation.launch.py
+[20.273s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/spawn_robots.launch.py
+[20.281s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.pgm
+[20.289s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.png
+[20.299s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.yaml
+[20.308s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//worlds/maze_world.world
+[20.316s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_map/model.config
+[20.324s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_map/model.sdf
+[20.335s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params.yaml
+[20.343s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/room_positions.yaml
+[20.351s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim//urdf/turtlebot3_burger_fixed.urdf
+[20.359s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/lib/mazesim/generate_walls.py
+[20.367s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/lib/mazesim/verify_positions
+[20.376s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/package_run_dependencies/mazesim
+[20.384s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/parent_prefix_path/mazesim
+[20.393s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.sh
+[20.402s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.dsv
+[20.412s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.sh
+[20.420s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.dsv
+[20.429s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.bash
+[20.437s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.sh
+[20.446s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.zsh
+[20.454s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.dsv
+[20.463s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.dsv
+[20.471s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/packages/mazesim
+[20.480s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig.cmake
+[20.488s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig-version.cmake
+[20.497s] -- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.xml
+[20.510s] Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim

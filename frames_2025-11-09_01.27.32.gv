@@ -1,0 +1,18 @@
+digraph G {
+"robot3/odom" -> "robot3/base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 29.318\nBuffer length: 4.4\nMost recent transform: 1879.4\nOldest transform: 1875.0\n"];
+"robot1/odom" -> "robot1/base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 29.767\nBuffer length: 4.3\nMost recent transform: 1879.3\nOldest transform: 1875.0\n"];
+"robot1/base_link" -> "robot1/wheel_left_link"[label=" Broadcaster: default_authority\nAverage rate: 19.7\nBuffer length: 3.604\nMost recent transform: 1879.393\nOldest transform: 1875.789\n"];
+"robot1/base_footprint" -> "robot1/base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot1/base_link" -> "robot1/wheel_right_link"[label=" Broadcaster: default_authority\nAverage rate: 19.7\nBuffer length: 3.604\nMost recent transform: 1879.393\nOldest transform: 1875.789\n"];
+"robot1/base_link" -> "robot1/imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot1/base_link" -> "robot1/base_scan"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot3/base_link" -> "robot3/wheel_left_link"[label=" Broadcaster: default_authority\nAverage rate: 19.685\nBuffer length: 4.318\nMost recent transform: 1879.376\nOldest transform: 1875.058\n"];
+"robot3/base_footprint" -> "robot3/base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot3/base_link" -> "robot3/wheel_right_link"[label=" Broadcaster: default_authority\nAverage rate: 19.685\nBuffer length: 4.318\nMost recent transform: 1879.376\nOldest transform: 1875.058\n"];
+"robot3/base_link" -> "robot3/imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot3/base_link" -> "robot3/base_scan"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1762648052.4509592"[ shape=plaintext ] ;
+}->"robot1/odom";
+}

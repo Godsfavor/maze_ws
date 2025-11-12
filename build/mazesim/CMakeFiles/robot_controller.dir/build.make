@@ -98,6 +98,11 @@ robot_controller: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspect
 robot_controller: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 robot_controller: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so
 robot_controller: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 robot_controller: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so
 robot_controller: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
 robot_controller: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -107,6 +112,9 @@ robot_controller: /opt/ros/humble/lib/libexample_interfaces__rosidl_generator_py
 robot_controller: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 robot_controller: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so
 robot_controller: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+robot_controller: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 robot_controller: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_c.so
 robot_controller: /opt/ros/humble/lib/libexample_interfaces__rosidl_generator_c.so
 robot_controller: /opt/ros/humble/lib/libtf2_ros.so

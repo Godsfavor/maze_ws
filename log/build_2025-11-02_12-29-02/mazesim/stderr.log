@@ -1,8 +1,0 @@
-[31mCMake Error at CMakeLists.txt:96 (add_executable):
-  add_executable cannot create target "robot_controller" because another
-  target with the same name already exists.  The existing target is an
-  executable created in source directory "/home/gfave/maze_ws/src/mazesim".
-  See documentation for policy CMP0002 for more details.
-
-[0m
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1

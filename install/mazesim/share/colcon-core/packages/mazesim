@@ -1,1 +1,1 @@
-example_interfaces:gazebo_ros:gazebo_ros_pkgs:geometry_msgs:nav_msgs:rclcpp:robot_state_publisher:std_msgs:tf2_ros:xacro
+example_interfaces:gazebo_ros:gazebo_ros_pkgs:geometry_msgs:nav2_msgs:nav_msgs:rclcpp:rclcpp_action:robot_state_publisher:std_msgs:tf2:tf2_geometry_msgs:tf2_ros:xacro

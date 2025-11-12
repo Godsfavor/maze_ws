@@ -198,6 +198,19 @@ mazesim_uninstall/fast:
 .PHONY : mazesim_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named nav2_command_translator
+
+# Build rule for target.
+nav2_command_translator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav2_command_translator
+.PHONY : nav2_command_translator
+
+# fast build rule for target.
+nav2_command_translator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_translator.dir/build.make CMakeFiles/nav2_command_translator.dir/build
+.PHONY : nav2_command_translator/fast
+
+#=============================================================================
 # Target rules for targets named robot_controller
 
 # Build rule for target.
@@ -211,6 +224,19 @@ robot_controller/fast:
 .PHONY : robot_controller/fast
 
 #=============================================================================
+# Target rules for targets named nav2_command_bridge
+
+# Build rule for target.
+nav2_command_bridge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav2_command_bridge
+.PHONY : nav2_command_bridge
+
+# fast build rule for target.
+nav2_command_bridge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_bridge.dir/build.make CMakeFiles/nav2_command_bridge.dir/build
+.PHONY : nav2_command_bridge/fast
+
+#=============================================================================
 # Target rules for targets named verify_positions
 
 # Build rule for target.
@@ -222,6 +248,54 @@ verify_positions: cmake_check_build_system
 verify_positions/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/verify_positions.dir/build.make CMakeFiles/verify_positions.dir/build
 .PHONY : verify_positions/fast
+
+src/nav2_command_bridge.o: src/nav2_command_bridge.cpp.o
+.PHONY : src/nav2_command_bridge.o
+
+# target to build an object file
+src/nav2_command_bridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_bridge.dir/build.make CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.o
+.PHONY : src/nav2_command_bridge.cpp.o
+
+src/nav2_command_bridge.i: src/nav2_command_bridge.cpp.i
+.PHONY : src/nav2_command_bridge.i
+
+# target to preprocess a source file
+src/nav2_command_bridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_bridge.dir/build.make CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.i
+.PHONY : src/nav2_command_bridge.cpp.i
+
+src/nav2_command_bridge.s: src/nav2_command_bridge.cpp.s
+.PHONY : src/nav2_command_bridge.s
+
+# target to generate assembly for a file
+src/nav2_command_bridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_bridge.dir/build.make CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.s
+.PHONY : src/nav2_command_bridge.cpp.s
+
+src/nav2_command_translator.o: src/nav2_command_translator.cpp.o
+.PHONY : src/nav2_command_translator.o
+
+# target to build an object file
+src/nav2_command_translator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_translator.dir/build.make CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.o
+.PHONY : src/nav2_command_translator.cpp.o
+
+src/nav2_command_translator.i: src/nav2_command_translator.cpp.i
+.PHONY : src/nav2_command_translator.i
+
+# target to preprocess a source file
+src/nav2_command_translator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_translator.dir/build.make CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.i
+.PHONY : src/nav2_command_translator.cpp.i
+
+src/nav2_command_translator.s: src/nav2_command_translator.cpp.s
+.PHONY : src/nav2_command_translator.s
+
+# target to generate assembly for a file
+src/nav2_command_translator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav2_command_translator.dir/build.make CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.s
+.PHONY : src/nav2_command_translator.cpp.s
 
 src/robot_controller.o: src/robot_controller.cpp.o
 .PHONY : src/robot_controller.o
@@ -286,8 +360,16 @@ help:
 	@echo "... test"
 	@echo "... mazesim_uninstall"
 	@echo "... uninstall"
+	@echo "... nav2_command_bridge"
+	@echo "... nav2_command_translator"
 	@echo "... robot_controller"
 	@echo "... verify_positions"
+	@echo "... src/nav2_command_bridge.o"
+	@echo "... src/nav2_command_bridge.i"
+	@echo "... src/nav2_command_bridge.s"
+	@echo "... src/nav2_command_translator.o"
+	@echo "... src/nav2_command_translator.i"
+	@echo "... src/nav2_command_translator.s"
 	@echo "... src/robot_controller.o"
 	@echo "... src/robot_controller.i"
 	@echo "... src/robot_controller.s"

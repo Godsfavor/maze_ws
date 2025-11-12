@@ -1,0 +1,322 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (mazesim) JobQueued: {'identifier': 'mazesim', 'dependencies': OrderedDict()}
+[0.000397] (mazesim) JobStarted: {'identifier': 'mazesim'}
+[0.009256] (mazesim) JobProgress: {'identifier': 'mazesim', 'progress': 'cmake'}
+[0.011093] (mazesim) JobProgress: {'identifier': 'mazesim', 'progress': 'build'}
+[0.011147] (mazesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gfave/maze_ws/build/mazesim', '--', '-j8', '-l8'], 'cwd': '/home/gfave/maze_ws/build/mazesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/gfave/maze_ws/install/mazesim/share/mazesim/models'), ('USER', 'gfave'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gfave'), ('OLDPWD', '/home/gfave'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gfave/maze_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gfave'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gfave'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gfave/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gfave-HP-ProBook-430-G7:@/tmp/.ICE-unix/2021,unix/gfave-HP-ProBook-430-G7:/tmp/.ICE-unix/2021'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10f1e422_74e2_4595_ba91_38fc9cdb4321'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTHXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gfave/maze_ws/install/mazesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gfave/maze_ws/build/mazesim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gfave/maze_ws/install/mazesim:/opt/ros/humble')]), 'shell': False}
+[0.066358] (mazesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target verify_positions\x1b[0m\n'}
+[0.069626] (mazesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_controller\x1b[0m\n'}
+[0.069923] (mazesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_command_translator\x1b[0m\n'}
+[0.071286] (mazesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_command_bridge\x1b[0m\n'}
+[0.083349] (mazesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/verify_positions.dir/src/verify_positions.cpp.o\x1b[0m\n'}
+[0.095302] (mazesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nav2_command_bridge.dir/src/nav2_command_bridge.cpp.o\x1b[0m\n'}
+[0.095760] (mazesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/nav2_command_translator.dir/src/nav2_command_translator.cpp.o\x1b[0m\n'}
+[0.099726] (mazesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o\x1b[0m\n'}
+[0.100234] (-) TimerEvent: {}
+[0.200670] (-) TimerEvent: {}
+[0.301023] (-) TimerEvent: {}
+[0.401435] (-) TimerEvent: {}
+[0.501849] (-) TimerEvent: {}
+[0.602266] (-) TimerEvent: {}
+[0.702686] (-) TimerEvent: {}
+[0.803120] (-) TimerEvent: {}
+[0.903501] (-) TimerEvent: {}
+[1.003997] (-) TimerEvent: {}
+[1.104622] (-) TimerEvent: {}
+[1.205391] (-) TimerEvent: {}
+[1.233730] (mazesim) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable verify_positions\x1b[0m\n'}
+[1.305400] (-) TimerEvent: {}
+[1.407139] (-) TimerEvent: {}
+[1.444794] (mazesim) StdoutLine: {'line': b'[ 62%] Built target verify_positions\n'}
+[1.507391] (-) TimerEvent: {}
+[1.607869] (-) TimerEvent: {}
+[1.708234] (-) TimerEvent: {}
+[1.808574] (-) TimerEvent: {}
+[1.908915] (-) TimerEvent: {}
+[2.009260] (-) TimerEvent: {}
+[2.109615] (-) TimerEvent: {}
+[2.210096] (-) TimerEvent: {}
+[2.310512] (-) TimerEvent: {}
+[2.410813] (-) TimerEvent: {}
+[2.511113] (-) TimerEvent: {}
+[2.612767] (-) TimerEvent: {}
+[2.713181] (-) TimerEvent: {}
+[2.813542] (-) TimerEvent: {}
+[2.914181] (-) TimerEvent: {}
+[3.014655] (-) TimerEvent: {}
+[3.116114] (-) TimerEvent: {}
+[3.216866] (-) TimerEvent: {}
+[3.317327] (-) TimerEvent: {}
+[3.417684] (-) TimerEvent: {}
+[3.518055] (-) TimerEvent: {}
+[3.618505] (-) TimerEvent: {}
+[3.718881] (-) TimerEvent: {}
+[3.819282] (-) TimerEvent: {}
+[3.920037] (-) TimerEvent: {}
+[4.020389] (-) TimerEvent: {}
+[4.120837] (-) TimerEvent: {}
+[4.221150] (-) TimerEvent: {}
+[4.321493] (-) TimerEvent: {}
+[4.387508] (mazesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Nav2CommandTranslator::feedbackCallback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.387732] (mazesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gfave/maze_ws/src/mazesim/src/nav2_command_translator.cpp:142:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfeedback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.387837] (mazesim) StderrLine: {'line': b'  142 |         \x1b[01;35m\x1b[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback\x1b[m\x1b[K)\n'}
+[4.387915] (mazesim) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.421664] (-) TimerEvent: {}
+[4.522057] (-) TimerEvent: {}
+[4.622467] (-) TimerEvent: {}
+[4.722999] (-) TimerEvent: {}
+[4.823333] (-) TimerEvent: {}
+[4.923728] (-) TimerEvent: {}
+[5.024208] (-) TimerEvent: {}
+[5.124615] (-) TimerEvent: {}
+[5.225138] (-) TimerEvent: {}
+[5.325554] (-) TimerEvent: {}
+[5.425917] (-) TimerEvent: {}
+[5.526262] (-) TimerEvent: {}
+[5.626691] (-) TimerEvent: {}
+[5.727077] (-) TimerEvent: {}
+[5.827468] (-) TimerEvent: {}
+[5.927781] (-) TimerEvent: {}
+[6.028309] (-) TimerEvent: {}
+[6.128587] (-) TimerEvent: {}
+[6.228908] (-) TimerEvent: {}
+[6.329249] (-) TimerEvent: {}
+[6.429580] (-) TimerEvent: {}
+[6.529934] (-) TimerEvent: {}
+[6.630372] (-) TimerEvent: {}
+[6.731233] (-) TimerEvent: {}
+[6.831635] (-) TimerEvent: {}
+[6.932020] (-) TimerEvent: {}
+[7.032381] (-) TimerEvent: {}
+[7.133209] (-) TimerEvent: {}
+[7.233814] (-) TimerEvent: {}
+[7.334258] (-) TimerEvent: {}
+[7.434681] (-) TimerEvent: {}
+[7.535099] (-) TimerEvent: {}
+[7.635420] (-) TimerEvent: {}
+[7.735735] (-) TimerEvent: {}
+[7.836015] (-) TimerEvent: {}
+[7.936408] (-) TimerEvent: {}
+[8.036991] (-) TimerEvent: {}
+[8.137467] (-) TimerEvent: {}
+[8.237858] (-) TimerEvent: {}
+[8.338239] (-) TimerEvent: {}
+[8.438708] (-) TimerEvent: {}
+[8.539053] (-) TimerEvent: {}
+[8.639647] (-) TimerEvent: {}
+[8.740026] (-) TimerEvent: {}
+[8.840438] (-) TimerEvent: {}
+[8.940790] (-) TimerEvent: {}
+[9.041336] (-) TimerEvent: {}
+[9.141873] (-) TimerEvent: {}
+[9.242239] (-) TimerEvent: {}
+[9.342530] (-) TimerEvent: {}
+[9.442883] (-) TimerEvent: {}
+[9.543452] (-) TimerEvent: {}
+[9.643731] (-) TimerEvent: {}
+[9.744016] (-) TimerEvent: {}
+[9.844378] (-) TimerEvent: {}
+[9.944685] (-) TimerEvent: {}
+[10.045283] (-) TimerEvent: {}
+[10.146295] (-) TimerEvent: {}
+[10.248237] (-) TimerEvent: {}
+[10.348859] (-) TimerEvent: {}
+[10.449363] (-) TimerEvent: {}
+[10.550014] (-) TimerEvent: {}
+[10.650294] (-) TimerEvent: {}
+[10.750815] (-) TimerEvent: {}
+[10.852847] (-) TimerEvent: {}
+[10.953278] (-) TimerEvent: {}
+[11.053673] (-) TimerEvent: {}
+[11.154021] (-) TimerEvent: {}
+[11.254357] (-) TimerEvent: {}
+[11.354709] (-) TimerEvent: {}
+[11.455065] (-) TimerEvent: {}
+[11.555365] (-) TimerEvent: {}
+[11.655672] (-) TimerEvent: {}
+[11.755942] (-) TimerEvent: {}
+[11.856243] (-) TimerEvent: {}
+[11.956557] (-) TimerEvent: {}
+[12.056887] (-) TimerEvent: {}
+[12.157204] (-) TimerEvent: {}
+[12.257508] (-) TimerEvent: {}
+[12.357853] (-) TimerEvent: {}
+[12.458239] (-) TimerEvent: {}
+[12.558804] (-) TimerEvent: {}
+[12.659156] (-) TimerEvent: {}
+[12.759726] (-) TimerEvent: {}
+[12.860156] (-) TimerEvent: {}
+[12.960654] (-) TimerEvent: {}
+[13.061041] (-) TimerEvent: {}
+[13.161387] (-) TimerEvent: {}
+[13.261711] (-) TimerEvent: {}
+[13.361993] (-) TimerEvent: {}
+[13.462264] (-) TimerEvent: {}
+[13.562616] (-) TimerEvent: {}
+[13.663021] (-) TimerEvent: {}
+[13.763376] (-) TimerEvent: {}
+[13.863668] (-) TimerEvent: {}
+[13.963957] (-) TimerEvent: {}
+[14.064347] (-) TimerEvent: {}
+[14.166867] (-) TimerEvent: {}
+[14.267463] (-) TimerEvent: {}
+[14.367840] (-) TimerEvent: {}
+[14.468427] (-) TimerEvent: {}
+[14.570055] (-) TimerEvent: {}
+[14.670761] (-) TimerEvent: {}
+[14.771139] (-) TimerEvent: {}
+[14.871430] (-) TimerEvent: {}
+[14.971713] (-) TimerEvent: {}
+[15.072031] (-) TimerEvent: {}
+[15.172426] (-) TimerEvent: {}
+[15.272880] (-) TimerEvent: {}
+[15.327818] (mazesim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable nav2_command_translator\x1b[0m\n'}
+[15.373015] (-) TimerEvent: {}
+[15.473482] (-) TimerEvent: {}
+[15.574025] (-) TimerEvent: {}
+[15.625461] (mazesim) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable nav2_command_bridge\x1b[0m\n'}
+[15.674160] (-) TimerEvent: {}
+[15.774545] (-) TimerEvent: {}
+[15.874944] (-) TimerEvent: {}
+[15.975305] (-) TimerEvent: {}
+[16.075751] (-) TimerEvent: {}
+[16.176140] (-) TimerEvent: {}
+[16.276627] (-) TimerEvent: {}
+[16.377032] (-) TimerEvent: {}
+[16.477407] (-) TimerEvent: {}
+[16.545453] (mazesim) StdoutLine: {'line': b'[ 87%] Built target nav2_command_translator\n'}
+[16.577506] (-) TimerEvent: {}
+[16.677831] (-) TimerEvent: {}
+[16.778077] (mazesim) StdoutLine: {'line': b'[ 87%] Built target nav2_command_bridge\n'}
+[16.778368] (-) TimerEvent: {}
+[16.878743] (-) TimerEvent: {}
+[16.979100] (-) TimerEvent: {}
+[17.079421] (-) TimerEvent: {}
+[17.179752] (-) TimerEvent: {}
+[17.280175] (-) TimerEvent: {}
+[17.380491] (-) TimerEvent: {}
+[17.480831] (-) TimerEvent: {}
+[17.581388] (-) TimerEvent: {}
+[17.681751] (-) TimerEvent: {}
+[17.782144] (-) TimerEvent: {}
+[17.882420] (-) TimerEvent: {}
+[17.982915] (-) TimerEvent: {}
+[18.083308] (-) TimerEvent: {}
+[18.183599] (-) TimerEvent: {}
+[18.283951] (-) TimerEvent: {}
+[18.384557] (-) TimerEvent: {}
+[18.485270] (-) TimerEvent: {}
+[18.586112] (-) TimerEvent: {}
+[18.686502] (-) TimerEvent: {}
+[18.787102] (-) TimerEvent: {}
+[18.887409] (-) TimerEvent: {}
+[18.987681] (-) TimerEvent: {}
+[19.087922] (-) TimerEvent: {}
+[19.188194] (-) TimerEvent: {}
+[19.288432] (-) TimerEvent: {}
+[19.388745] (-) TimerEvent: {}
+[19.489013] (-) TimerEvent: {}
+[19.589290] (-) TimerEvent: {}
+[19.689597] (-) TimerEvent: {}
+[19.789854] (-) TimerEvent: {}
+[19.890095] (-) TimerEvent: {}
+[19.990337] (-) TimerEvent: {}
+[20.090761] (-) TimerEvent: {}
+[20.191318] (-) TimerEvent: {}
+[20.291634] (-) TimerEvent: {}
+[20.391904] (-) TimerEvent: {}
+[20.492176] (-) TimerEvent: {}
+[20.592453] (-) TimerEvent: {}
+[20.692794] (-) TimerEvent: {}
+[20.793082] (-) TimerEvent: {}
+[20.893356] (-) TimerEvent: {}
+[20.993618] (-) TimerEvent: {}
+[21.093862] (-) TimerEvent: {}
+[21.194199] (-) TimerEvent: {}
+[21.294649] (-) TimerEvent: {}
+[21.394955] (-) TimerEvent: {}
+[21.495295] (-) TimerEvent: {}
+[21.595558] (-) TimerEvent: {}
+[21.695900] (-) TimerEvent: {}
+[21.796222] (-) TimerEvent: {}
+[21.896617] (-) TimerEvent: {}
+[21.996923] (-) TimerEvent: {}
+[22.097563] (-) TimerEvent: {}
+[22.197950] (-) TimerEvent: {}
+[22.298265] (-) TimerEvent: {}
+[22.398661] (-) TimerEvent: {}
+[22.499061] (-) TimerEvent: {}
+[22.599422] (-) TimerEvent: {}
+[22.647838] (mazesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_controller\x1b[0m\n'}
+[22.699545] (-) TimerEvent: {}
+[22.799954] (-) TimerEvent: {}
+[22.900416] (-) TimerEvent: {}
+[23.000873] (-) TimerEvent: {}
+[23.101337] (-) TimerEvent: {}
+[23.201877] (-) TimerEvent: {}
+[23.302302] (-) TimerEvent: {}
+[23.402596] (-) TimerEvent: {}
+[23.502874] (-) TimerEvent: {}
+[23.603158] (-) TimerEvent: {}
+[23.703471] (-) TimerEvent: {}
+[23.803750] (-) TimerEvent: {}
+[23.904137] (-) TimerEvent: {}
+[23.910377] (mazesim) StdoutLine: {'line': b'[100%] Built target robot_controller\n'}
+[23.921710] (mazesim) CommandEnded: {'returncode': 0}
+[23.953416] (mazesim) JobProgress: {'identifier': 'mazesim', 'progress': 'install'}
+[23.961599] (mazesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gfave/maze_ws/build/mazesim'], 'cwd': '/home/gfave/maze_ws/build/mazesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/gfave/maze_ws/install/mazesim/share/mazesim/models'), ('USER', 'gfave'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gfave'), ('OLDPWD', '/home/gfave'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gfave/maze_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gfave'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gfave'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gfave/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gfave-HP-ProBook-430-G7:@/tmp/.ICE-unix/2021,unix/gfave-HP-ProBook-430-G7:/tmp/.ICE-unix/2021'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10f1e422_74e2_4595_ba91_38fc9cdb4321'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTHXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gfave/maze_ws/install/mazesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gfave/maze_ws/build/mazesim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gfave/maze_ws/install/mazesim:/opt/ros/humble')]), 'shell': False}
+[23.969027] (mazesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.969492] (mazesim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.969787] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/nav2_command_translator\n'}
+[23.970034] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/robot_controller\n'}
+[23.970210] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/odom_tf_broadcaster.py\n'}
+[23.970325] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/odom_frame_fixer.py\n'}
+[23.970437] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/laser_frame_remapper.py\n'}
+[23.970546] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/map_loader.py\n'}
+[23.970802] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/nav2_command_bridge\n'}
+[23.971177] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation.launch.py\n'}
+[23.971289] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_direct.launch.py\n'}
+[23.971399] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_fixed.launch.py\n'}
+[23.971506] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_move.launch.py\n'}
+[23.971613] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_nav2.launch.py\n'}
+[23.971734] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/complete_simulation_with_odom_fix.launch.py\n'}
+[23.971848] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/gazebo.launch.py\n'}
+[23.971952] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/localization_launch.py\n'}
+[23.972058] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/nav2_navigation.launch.py\n'}
+[23.972163] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/spawn_robots.launch.py\n'}
+[23.972267] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//launch/working_sim.launch.py\n'}
+[23.972557] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.pgm\n'}
+[23.972672] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.png\n'}
+[23.972895] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//maps/my_map_1.yaml\n'}
+[23.973161] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//worlds/maze_world.world\n'}
+[23.973478] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_map/model.config\n'}
+[23.973592] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/maze_map/model.sdf\n'}
+[23.973714] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/turtlebot3_burger/model-1_4.sdf\n'}
+[23.973829] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/turtlebot3_burger/model.config\n'}
+[23.973936] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//models/turtlebot3_burger/model.sdf\n'}
+[23.974350] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params.yaml\n'}
+[23.974460] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params_robot1.yaml\n'}
+[23.974568] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/nav2_params_robot3.yaml\n'}
+[23.974675] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//config/room_positions.yaml\n'}
+[23.974944] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim//urdf/turtlebot3_burger_fixed.urdf\n'}
+[23.975098] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/generate_walls.py\n'}
+[23.975344] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/lib/mazesim/verify_positions\n'}
+[23.975521] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/package_run_dependencies/mazesim\n'}
+[23.975704] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/parent_prefix_path/mazesim\n'}
+[23.975873] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.sh\n'}
+[23.976030] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/ament_prefix_path.dsv\n'}
+[23.976190] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.sh\n'}
+[23.976342] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/environment/path.dsv\n'}
+[23.976494] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.bash\n'}
+[23.976650] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.sh\n'}
+[23.976809] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.zsh\n'}
+[23.976957] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/local_setup.dsv\n'}
+[23.977074] (mazesim) StdoutLine: {'line': b'-- Symlinking: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.dsv\n'}
+[23.986549] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/ament_index/resource_index/packages/mazesim\n'}
+[23.986798] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig.cmake\n'}
+[23.986903] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/cmake/mazesimConfig-version.cmake\n'}
+[23.987059] (mazesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gfave/maze_ws/install/mazesim/share/mazesim/package.xml\n'}
+[23.988615] (mazesim) CommandEnded: {'returncode': 0}
+[24.004271] (-) TimerEvent: {}
+[24.037239] (mazesim) JobEnded: {'identifier': 'mazesim', 'rc': 0}
+[24.037591] (-) EventReactorShutdown: {}

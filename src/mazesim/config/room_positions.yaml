@@ -4,60 +4,60 @@
 rooms:
   room_1:
     name: "Upper-Left Room"
-    x: 4.06
-    y: 14.85
-    z: 0.0
+    x: 0.0
+    y: 0.0
+    z: 0.01
     yaw: 1.57  # Orientation in radians (0 = facing +X)
     
   room_2:
     name: "Upper-Right Room"
-    x: 15.56
-    y: 14.85
-    z: 0.0
+    x: -1.2
+    y: 0.0
+    z: 0.01
     yaw: 3.14
     
   room_3:
     name: "Lower-Left Room"
-    x: 4.06
-    y: 3.85
-    z: 0.0
+    x: -1.2
+    y: 1.0
+    z: 0.01
     yaw: 0.0
     
   room_4:
     name: "Lower-Right Room"
-    x: 15.56
-    y: 6.35
-    z: 0.0
+    x: -0.2
+    y: 0.8
+    z: 0.01
     yaw: -1.57
 
 # Robot starting positions
 robot_starting_positions:
   robot_1:
     room: "room_1"
-    x: 4.06
-    y: 14.85
-    z: 0.0
+    x: 0.0
+    y: 0.0
+    z: 0.01
     yaw: 1.57
     
   robot_2:
     room: "room_2"
-    x: 15.56
-    y: 14.85
-    z: 0.0
+    x: -1.2
+    y: 0.0
+    z: 0.01
     yaw: 3.14
     
   robot_3:
     room: "room_3"
-    x: 4.06
-    y: 3.85
+    x: -1.2
+    y: 1.0
     z: 0.0
     yaw: 0.0
     
   robot_4:
     room: "room_4"
-    x: 15.56
-    y: 6.35
-    z: 0.0
+    x: -0.2
+    y: 0.8
+    z: 0.01
     yaw: -1.57
 
 # Movement patterns

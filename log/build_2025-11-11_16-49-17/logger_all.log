@@ -1,0 +1,155 @@
+[0.777s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.778s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7213eb17cfd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7213eb27d630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7213eb27d630>>, mixin_verb=('build',))
+[2.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gfave/maze_ws'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extensions ['ignore', 'ignore_ament_install']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extension 'ignore'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extension 'ignore_ament_install'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extensions ['colcon_pkg']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extension 'colcon_pkg'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extensions ['colcon_meta']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extension 'colcon_meta'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extensions ['ros']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/mazesim) by extension 'ros'
+[2.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mazesim' with type 'ros.ament_cmake' and name 'mazesim'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'ignore'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'ignore_ament_install'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extensions ['colcon_pkg']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'colcon_pkg'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extensions ['colcon_meta']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'colcon_meta'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extensions ['ros']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'ros'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extensions ['cmake', 'python']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'cmake'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'python'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extensions ['python_setup_py']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(test_suite_analysis) by extension 'python_setup_py'
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gfave/maze_ws/install
+[2.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/humble
+[2.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'cmake_args' from command line to 'None'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'cmake_target' from command line to 'None'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'cmake_clean_first' from command line to 'False'
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'cmake_force_configure' from command line to 'False'
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'ament_cmake_args' from command line to 'None'
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'mazesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.853s] DEBUG:colcon.colcon_core.verb:Building package 'mazesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gfave/maze_ws/build/mazesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gfave/maze_ws/install/mazesim', 'merge_install': False, 'path': '/home/gfave/maze_ws/src/mazesim', 'symlink_install': False, 'test_result_base': None}
+[2.854s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.863s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gfave/maze_ws/src/mazesim' with build type 'ament_cmake'
+[2.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gfave/maze_ws/src/mazesim'
+[2.884s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[30.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gfave/maze_ws/build/mazesim -- -j8 -l8
+[30.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gfave/maze_ws/build/mazesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim
+[30.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mazesim)
+[30.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gfave/maze_ws/build/mazesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gfave/maze_ws/build/mazesim
+[30.732s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim' for CMake module files
+[30.733s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim' for CMake config files
+[30.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('mazesim', 'cmake_prefix_path')
+[30.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gfave/maze_ws/install/mazesim/share/mazesim/hook/cmake_prefix_path.ps1'
+[30.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gfave/maze_ws/install/mazesim/share/mazesim/hook/cmake_prefix_path.dsv'
+[30.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gfave/maze_ws/install/mazesim/share/mazesim/hook/cmake_prefix_path.sh'
+[30.736s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/lib'
+[30.736s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/bin'
+[30.736s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/lib/pkgconfig/mazesim.pc'
+[30.736s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/lib/python3.10/site-packages'
+[30.736s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/bin'
+[30.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.ps1'
+[30.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.dsv'
+[30.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.sh'
+[30.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.bash'
+[30.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.zsh'
+[30.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gfave/maze_ws/install/mazesim/share/colcon-core/packages/mazesim)
+[30.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mazesim)
+[30.782s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim' for CMake module files
+[30.783s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim' for CMake config files
+[30.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('mazesim', 'cmake_prefix_path')
+[30.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gfave/maze_ws/install/mazesim/share/mazesim/hook/cmake_prefix_path.ps1'
+[30.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gfave/maze_ws/install/mazesim/share/mazesim/hook/cmake_prefix_path.dsv'
+[30.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gfave/maze_ws/install/mazesim/share/mazesim/hook/cmake_prefix_path.sh'
+[30.786s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/lib'
+[30.786s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/bin'
+[30.786s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/lib/pkgconfig/mazesim.pc'
+[30.786s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/lib/python3.10/site-packages'
+[30.787s] Level 1:colcon.colcon_core.environment:checking '/home/gfave/maze_ws/install/mazesim/bin'
+[30.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.ps1'
+[30.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.dsv'
+[30.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.sh'
+[30.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.bash'
+[30.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/gfave/maze_ws/install/mazesim/share/mazesim/package.zsh'
+[30.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gfave/maze_ws/install/mazesim/share/colcon-core/packages/mazesim)
+[30.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.791s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.798s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.816s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gfave/maze_ws/install/local_setup.ps1'
+[30.818s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gfave/maze_ws/install/_local_setup_util_ps1.py'
+[30.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gfave/maze_ws/install/setup.ps1'
+[30.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gfave/maze_ws/install/local_setup.sh'
+[30.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gfave/maze_ws/install/_local_setup_util_sh.py'
+[30.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gfave/maze_ws/install/setup.sh'
+[30.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gfave/maze_ws/install/local_setup.bash'
+[30.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gfave/maze_ws/install/setup.bash'
+[30.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gfave/maze_ws/install/local_setup.zsh'
+[30.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gfave/maze_ws/install/setup.zsh'

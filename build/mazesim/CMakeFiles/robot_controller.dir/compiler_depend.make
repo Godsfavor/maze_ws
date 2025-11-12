@@ -211,6 +211,25 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -254,34 +273,15 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/bits/std_thread.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
-  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/unordered_map.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/include/c++/11/iostream \
@@ -687,6 +687,10 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp \
   /opt/ros/humble/include/example_interfaces/example_interfaces/msg/empty.hpp \
   /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/empty__struct.hpp \
   /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/empty__builder.hpp \
@@ -724,6 +728,12 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/empty__traits.hpp:
 
 /opt/ros/humble/include/example_interfaces/example_interfaces/msg/empty.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp:
 
@@ -893,26 +903,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
-/usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/c++/11/stdexcept:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/usr/include/c++/11/utility:
-
-/usr/include/c++/11/ios:
-
-/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
-
-/usr/include/c++/11/future:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
@@ -932,8 +922,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
@@ -961,6 +949,48 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
@@ -973,14 +1003,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
-/usr/include/c++/11/bits/unique_lock.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
@@ -992,10 +1014,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/11/bits/specfun.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/bits/stl_list.h:
 
@@ -1017,13 +1035,9 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/usr/include/c++/11/bits/stl_algo.h:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
-
-/usr/include/c++/11/bits/atomic_futex.h:
-
-/usr/include/c++/11/cstring:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
@@ -1037,10 +1051,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
@@ -1051,19 +1061,15 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/stdio.h:
 
-/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /usr/include/c++/11/iostream:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/future:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -1078,6 +1084,14 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/include/c++/11/unordered_map:
 
 /usr/include/c++/11/cctype:
 
@@ -1105,6 +1119,14 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/c++/11/bits/localefwd.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+
+/usr/include/c++/11/functional:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/linux/errno.h:
+
 /usr/include/asm-generic/errno-base.h:
 
 /opt/ros/humble/include/rmw/rmw/subscription_options.h:
@@ -1114,6 +1136,10 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/c++/11/string:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp:
 
@@ -1127,6 +1153,16 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
 
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/c++/11/bits/atomic_futex.h:
+
 /opt/ros/humble/include/rcl/rcl/graph.h:
 
 /usr/include/c++/11/exception:
@@ -1139,8 +1175,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
-/usr/include/c++/11/atomic:
-
 /usr/include/c++/11/bits/concept_check.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
@@ -1150,6 +1184,10 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /opt/ros/humble/include/rmw/rmw/init.h:
 
 /usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -1163,17 +1201,9 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
 
-/usr/include/c++/11/ratio:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/c++/11/bits/std_mutex.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -1193,6 +1223,12 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/11/stdexcept:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
@@ -1200,16 +1236,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/locale.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -1251,14 +1277,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/c++/11/debug/debug.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/usr/include/c++/11/functional:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -1273,11 +1291,17 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
+/usr/include/c++/11/utility:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/ios:
+
 /usr/include/c++/11/ext/type_traits.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/c++/11/ratio:
 
 /usr/include/strings.h:
 
@@ -1295,19 +1319,7 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
-/usr/include/c++/11/system_error:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/c++/11/chrono:
 
 /usr/include/c++/11/cstdio:
 
@@ -1349,9 +1361,9 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/c++/11/bits/stl_function.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
-
 /usr/include/c++/11/bits/memoryfwd.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -1360,18 +1372,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/c++/11/bits/stl_pair.h:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
-
-/usr/include/c++/11/mutex:
 
 /usr/include/stdc-predef.h:
 
@@ -1404,12 +1404,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/usr/include/c++/11/set:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -1445,6 +1439,16 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
@@ -1454,6 +1458,8 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
@@ -1523,6 +1529,8 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
+/usr/include/c++/11/vector:
+
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
 /usr/include/c++/11/bits/align.h:
@@ -1531,13 +1539,29 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/bits/std_mutex.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
 /usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
 
 /usr/include/c++/11/bits/invoke.h:
+
+/usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -1591,6 +1615,30 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/usr/include/c++/11/chrono:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/11/mutex:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/system_error:
+
+/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
+
+/usr/include/c++/11/atomic:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/set:
+
 /usr/include/c++/11/bits/stl_tree.h:
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
@@ -1602,44 +1650,6 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
 /usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/usr/include/c++/11/vector:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/usr/include/c++/11/unordered_map:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
-
-/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/cassert:
 
@@ -1746,6 +1756,8 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
 /usr/include/c++/11/stdlib.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
@@ -1911,9 +1923,9 @@ CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o: /home/gfave/maze_ws/
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 

@@ -1,0 +1,1 @@
+/home/gfave/maze_ws/src/mazesim/launch/nav2_navigation.launch.py

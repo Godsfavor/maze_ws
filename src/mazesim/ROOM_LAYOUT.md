@@ -81,3 +81,26 @@ Visual representation:
 - **Angular Speed**: 0.5 rad/s
 - **Position Tolerance**: 0.15 m (arrives within 15 cm of target)
 - **Angle Tolerance**: 0.1 rad (≈ 5.7 degrees)
+
+
+
+cd ~/maze_ws
+colcon build --symlink-install
+source install/setup.bash
+
+
+source /usr/share/gazebo/setup.bash
+ros2 launch mazesim complete_simulation_with_odom_fix.launch.py
+
+
+source ~/maze_ws/install/setup.bash
+
+# Send LEFT command - all robots will rotate counter-clockwise
+ros2 topic pub /left example_interfaces/msg/Empty "{}" --once
+
+# Wait for navigation to complete, then send RIGHT command
+ros2 topic pub /right example_interfaces/msg/Empty "{}" --once
+
+
+ros2 run rqt_tf_tree rqt_tf_tree --force-discover
+
