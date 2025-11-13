@@ -28,7 +28,7 @@ def generate_launch_description():
     # These are rough estimates - you'll need to fine-tune
     robots = [
         {'name': 'robot1', 'x': 0.0, 'y': 0.0, 'z': 0.01, 'yaw': 1.57, 'room': 'room_1'},   # Upper-left
-        # {'name': 'robot2', 'x': -1.2, 'y': 0.0, 'z': 0.01, 'yaw': 3.14, 'room': 'room_2'},   # Upper-right
+        {'name': 'robot2', 'x': -1.2, 'y': 0.0, 'z': 0.01, 'yaw': 3.14, 'room': 'room_2'},   # Upper-right
         # {'name': 'robot3', 'x': -0.2, 'y': 0.8, 'z': 0.0, 'yaw': 1.57, 'room': 'room_3'},    
         # {'name': 'robot3', 'x': -1.2, 'y': 1.0, 'z': 0.01, 'yaw': 0.0, 'room': 'room_3'},  # Lower-right
         {'name': 'robot4', 'x': -0.2, 'y': 0.8, 'z': 0.01, 'yaw': -1.57, 'room': 'room_4'},# Lower-left

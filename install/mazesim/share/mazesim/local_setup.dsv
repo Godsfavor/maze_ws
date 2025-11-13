@@ -1,1 +1,2 @@
-/home/gfave/maze_ws/build/mazesim/ament_cmake_environment_hooks/local_setup.dsv
+source;share/mazesim/environment/ament_prefix_path.sh
+source;share/mazesim/environment/path.sh
