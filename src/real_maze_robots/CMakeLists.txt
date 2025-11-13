@@ -42,9 +42,9 @@ install(DIRECTORY launch
 )
 
 # Install config files
-install(DIRECTORY config
-  DESTINATION share/${PROJECT_NAME}
-)
+# install(DIRECTORY config
+#   DESTINATION share/${PROJECT_NAME}
+# )
 
 # Install include files
 install(DIRECTORY include/

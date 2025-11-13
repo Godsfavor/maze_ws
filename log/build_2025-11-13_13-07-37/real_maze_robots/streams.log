@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': /usr/bin/cmake /home/usuario/maze_ws/src/real_maze_robots -DCMAKE_INSTALL_PREFIX=/home/usuario/maze_ws/install/real_maze_robots
+[0.335s] -- The C compiler identification is GNU 10.5.0
+[0.602s] -- The CXX compiler identification is GNU 10.5.0
+[0.625s] -- Detecting C compiler ABI info
+[0.931s] -- Detecting C compiler ABI info - done
+[0.955s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.955s] -- Detecting C compile features
+[0.956s] -- Detecting C compile features - done
+[0.970s] -- Detecting CXX compiler ABI info
+[1.235s] -- Detecting CXX compiler ABI info - done
+[1.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.267s] -- Detecting CXX compile features
+[1.267s] -- Detecting CXX compile features - done
+[1.296s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.296s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.296s]   has asked CMake to find a package configuration file provided by
+[1.296s]   "ament_cmake", but CMake did not find one.
+[1.296s] 
+[1.296s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.296s]   any of the following names:
+[1.296s] 
+[1.296s]     ament_cmakeConfig.cmake
+[1.297s]     ament_cmake-config.cmake
+[1.297s] 
+[1.297s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.297s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.297s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.297s]   has been installed.
+[1.297s] 
+[1.297s] [0m
+[1.297s] -- Configuring incomplete, errors occurred!
+[1.297s] See also "/home/usuario/maze_ws/build/real_maze_robots/CMakeFiles/CMakeOutput.log".
+[1.300s] Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '1': /usr/bin/cmake /home/usuario/maze_ws/src/real_maze_robots -DCMAKE_INSTALL_PREFIX=/home/usuario/maze_ws/install/real_maze_robots

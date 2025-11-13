@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': /usr/bin/cmake /home/usuario/maze_ws/src/real_maze_robots -DCMAKE_INSTALL_PREFIX=/home/usuario/maze_ws/install/real_maze_robots
+Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '1': /usr/bin/cmake /home/usuario/maze_ws/src/real_maze_robots -DCMAKE_INSTALL_PREFIX=/home/usuario/maze_ws/install/real_maze_robots

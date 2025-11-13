@@ -1,0 +1,4 @@
+Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/maze_ws/build/real_maze_robots -- -j6 -l6
+Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/maze_ws/build/real_maze_robots -- -j6 -l6
+Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/maze_ws/build/real_maze_robots
+Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/maze_ws/build/real_maze_robots

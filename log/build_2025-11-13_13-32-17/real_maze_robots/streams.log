@@ -1,0 +1,48 @@
+[0.029s] Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/maze_ws/build/real_maze_robots -- -j6 -l6
+[0.091s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.213s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.239s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.240s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.244s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.284s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.438s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.446s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.458s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.470s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.497s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.499s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.667s] -- Configuring done
+[0.769s] -- Generating done
+[0.805s] -- Build files have been written to: /home/usuario/maze_ws/build/real_maze_robots
+[0.868s] [35m[1mConsolidate compiler generated dependencies of target real_robot_controller[0m
+[0.929s] [100%] Built target real_robot_controller
+[0.940s] Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/maze_ws/build/real_maze_robots -- -j6 -l6
+[0.962s] Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/maze_ws/build/real_maze_robots
+[0.979s] -- Install configuration: ""
+[0.983s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/lib/real_maze_robots/real_robot_controller
+[0.988s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/launch
+[0.988s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/launch/command_publisher.launch.py
+[0.988s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/launch/single_robot.launch.py
+[0.988s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/include
+[0.988s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/include/real_maze_robots
+[0.988s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/include/real_maze_robots/room_manager.hpp
+[0.991s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/ament_index/resource_index/package_run_dependencies/real_maze_robots
+[0.994s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/ament_index/resource_index/parent_prefix_path/real_maze_robots
+[0.998s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/ament_prefix_path.sh
+[0.998s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/ament_prefix_path.dsv
+[1.001s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/path.sh
+[1.002s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/path.dsv
+[1.005s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.bash
+[1.008s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.sh
+[1.011s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.zsh
+[1.015s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.dsv
+[1.017s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/package.dsv
+[1.020s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/ament_index/resource_index/packages/real_maze_robots
+[1.022s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/cmake/real_maze_robotsConfig.cmake
+[1.025s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/cmake/real_maze_robotsConfig-version.cmake
+[1.028s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/package.xml
+[1.033s] Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/maze_ws/build/real_maze_robots

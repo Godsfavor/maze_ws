@@ -1,0 +1,28 @@
+[0.028s] Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/maze_ws/build/real_maze_robots -- -j6 -l6
+[0.182s] [100%] Built target real_robot_controller
+[0.194s] Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/maze_ws/build/real_maze_robots -- -j6 -l6
+[0.211s] Invoking command in '/home/usuario/maze_ws/build/real_maze_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/maze_ws/build/real_maze_robots
+[0.222s] -- Install configuration: ""
+[0.226s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/lib/real_maze_robots/real_robot_controller
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/launch
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/launch/command_publisher.launch.py
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/launch/single_robot.launch.py
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/include
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/include/real_maze_robots
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/include/real_maze_robots/room_manager.hpp
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/ament_index/resource_index/package_run_dependencies/real_maze_robots
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/ament_index/resource_index/parent_prefix_path/real_maze_robots
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/ament_prefix_path.sh
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/ament_prefix_path.dsv
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/path.sh
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/environment/path.dsv
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.bash
+[0.231s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.sh
+[0.232s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.zsh
+[0.232s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/local_setup.dsv
+[0.232s] -- Installing: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/package.dsv
+[0.234s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/ament_index/resource_index/packages/real_maze_robots
+[0.234s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/cmake/real_maze_robotsConfig.cmake
+[0.234s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/cmake/real_maze_robotsConfig-version.cmake
+[0.234s] -- Up-to-date: /home/usuario/maze_ws/install/real_maze_robots/share/real_maze_robots/package.xml
+[0.237s] Invoked command in '/home/usuario/maze_ws/build/real_maze_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/maze_ws/build/real_maze_robots
